@@ -79,7 +79,7 @@ weather_output.pack(pady=20)#pack means it goes below get weather button
 
 
 
-API_KEY = "1bdd0d917bd1838de55cda162cee433b"  # my API key from openweather
+API_KEY = "your_new_api_key_here"  # your own API key from openweather
 #function that actually fetches the data from the OpenWeather API key
 def fetch_weather_data(city):
     try:
